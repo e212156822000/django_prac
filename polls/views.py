@@ -3,9 +3,9 @@
 from datetime import datetime
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Person
+from .models import Person , Article
 from django.views import View
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView , YearArchiveView
 
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
@@ -26,3 +26,9 @@ class MyView(View):
 
 class AboutView(TemplateView):
 	template_name = "about.html"
+
+class ArticleYearArchiveView(YearArchiveView):
+    queryset = Article.objects.all()
+    date_field = "pub_date"
+    make_object_list = True
+    allow_future = True
