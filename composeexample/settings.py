@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['140.115.80.90']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -108,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Taipei'
 
 USE_I18N = True
 
