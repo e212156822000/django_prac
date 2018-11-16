@@ -25,7 +25,7 @@ SECRET_KEY = 'qo-jd(t9*fh_+qm97e1ah8+55g8^18381f76w*-wf6gq$ijxq('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['140.115.80.90']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
