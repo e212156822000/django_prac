@@ -1,0 +1,34 @@
+[
+  {
+    "model": "polls.person",
+    "pk": 1,
+    "fields": {
+      "first_name": "John",
+      "last_name": "Lennon"
+    }
+  },
+  {
+    "model": "polls.person",
+    "pk": 2,
+    "fields": {
+      "first_name": "Paul",
+      "last_name": "McCartney"
+    }
+  }
+ {
+    "model": "polls.article",
+    "pk": 1,
+    "fields": {
+      "title": "Harry Potter",
+      "pub_date": "2018-01-12"
+    }
+  },
+  {
+    "model": "polls.article",
+    "pk": 2,
+    "fields": {
+      "title": "Little Red Hat",
+      "pub_data": "2018-11-10"
+    }
+  }
+]
